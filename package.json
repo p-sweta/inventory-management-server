@@ -1,0 +1,30 @@
+{
+  "name": "instock-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "knex seed:run",
+    "latest": "knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.0",
+    "knex": "^2.5.1",
+    "mysql": "^2.18.1",
+    "uuidv4": "^6.2.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-sweta/ssbme-instock-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/p-sweta/ssbme-instock-server/issues"
+  },
+  "homepage": "https://github.com/p-sweta/ssbme-instock-server#readme",
+  "description": ""
+}
